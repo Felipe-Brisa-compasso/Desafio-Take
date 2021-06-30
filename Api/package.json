@@ -1,0 +1,26 @@
+{
+  "name": "api_gateway",
+  "version": "1.0.0",
+  "description": "...",
+  "main": "./api/index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node ./api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "keywords": [],
+  "author": ".",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.6.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.8"
+  }
+}
